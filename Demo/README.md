@@ -31,18 +31,14 @@
  - This form should be able to take in a link
  - This link should be saved in the **tokens** array
  
- ```
- 
- <form onsubmit="urlAdded">
-  <input type="text" name="tokenURL" required/>
-  <input type="submit"/>
- <form/> 
- 
- // Function to handle the submitted URL
- 
- function urlAdded(event){
-    const urlEntered = event.target.tokenURL.name;
-    tokens.push(urlEntered);
-    }
-    
-```    
+**Step4**
+
+- Create an form which takes in the user and the token id
+- This form should be able to send the tokens to the designated owners
+
+
+**IMPORTANT**
+
+- Make the token non-fungible by including a condition
+- This condition should check for existing tokens and if the token already exists the it should throw an error
+- If not then it should include it in the tokens array
