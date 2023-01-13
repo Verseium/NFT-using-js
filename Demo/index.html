@@ -1,0 +1,48 @@
+<!-- This file contains basic html code for working with NFTs --> 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NFTS using plain JS</title>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+
+        <!-- div for minting NFTs -->
+        <div class="minting-div">
+
+            <h2>Minting</h2>
+
+            <!-- form for minting nfts -->
+
+            <form id="tokenURLForm">
+                <input type="text"  name="tokenURL" required/>
+                <input type="submit" value="submit"/>
+            </form>        
+
+        </div>
+
+
+        <!-- div for transfering NFTs -->
+        <div class="transfering-nfts-div">
+
+            <h2>Transfering</h2>
+
+            <!-- form for transfering nfts -->
+
+            <form id="transferTokenForm">
+
+                <label>Token Owner:</label><br/>
+                <input type="text"  name="tokenOwner" required/><br/><br/>
+
+                <label>Token ID:</label><br/>
+                <input type="number" name="tokenID" required/><br/>
+                <input type="submit" value="submit"/>
+            </form>        
+
+        </div>
+
+        <script src="scripts.js"></script>
+    </body>
+</html>
