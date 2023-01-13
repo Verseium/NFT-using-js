@@ -37,4 +37,4 @@ Well, this is too much for you for now.
 
 NFTs are unique items(backed by blockchain) that cant be exchanged for another NFT as all NFTs have unique values and purposes.
 
-![NFT]()
+![NFT](https://github.com/Verseium/NFT-using-js/blob/main/js-based-nfts.drawio.png)
