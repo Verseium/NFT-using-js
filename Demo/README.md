@@ -24,3 +24,25 @@
  let tokens = ["https://..../1","https://..../2",.......]
  
  ```
+ 
+ **Step3**
+ 
+ - Create an input filed using a form
+ - This form should be able to take in a link
+ - This link should be saved in the **tokens** array
+ 
+ ```
+ 
+ <form onsubmit="urlAdded">
+  <input type="text" name="tokenURL" required/>
+  <input type="submit"/>
+ <form/> 
+ 
+ // Function to handle the submitted URL
+ 
+ function urlAdded(event){
+    const urlEntered = event.target.tokenURL.name;
+    tokens.push(urlEntered);
+    }
+    
+```    
