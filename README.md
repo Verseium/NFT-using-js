@@ -31,3 +31,10 @@ Here your partner is a NFT.
 ## For a 45 year old? 🧓🏻
 
 Well, this is too much for you for now. 
+
+
+## Technically speaking
+
+NFTs are unique items(backed by blockchain) that cant be exchanged for another NFT as all NFTs have unique values and purposes.
+
+![NFT]()
